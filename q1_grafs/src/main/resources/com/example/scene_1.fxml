@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller_1">
+   <children>
+      <Button fx:id="button1" onAction="#crateArrfFile" prefHeight="30.0" prefWidth="207.0" text="Create arrff file">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="button2" layoutX="234.0" layoutY="198.0" onAction="#showTopProducts" prefHeight="30.0" prefWidth="208.0" text="Show top products">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="206.0" layoutY="80.0" onAction="#showTopCustomers" prefHeight="30.0" prefWidth="208.0" text="Show top customers">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="234.0" layoutY="288.0" onAction="#showTopProductsPerWeek" prefHeight="30.0" prefWidth="208.0" text="Show transactions per week">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="234.0" layoutY="310.0" onAction="#showTopProductsPerMonth" prefHeight="30.0" prefWidth="210.0" text="Show transactions per month">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="222.0" layoutY="198.0" onAction="#showTopProductsPerYear" prefHeight="30.0" prefWidth="210.0" text="Show transactions per year">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="234.0" layoutY="220.0" onAction="#showTopProductsOnXmas" prefHeight="30.0" prefWidth="213.0" text="Show top products on xmas">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="234.0" layoutY="243.0" onAction="#showTopProductsOnEaster" prefHeight="30.0" prefWidth="213.0" text="Show top products on easter">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="234.0" layoutY="265.0" onAction="#showTopProductsOnSummer" prefHeight="30.0" prefWidth="214.0" text="Show top products on summer">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button10" layoutX="203.0" layoutY="430.0" onAction="#crateCategoryArrfFile" prefHeight="30.0" prefWidth="214.0" text="Create categories arrff file">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button11" layoutX="203.0" layoutY="480.0" onAction="#crateAgeCategoryArrffFiles" prefHeight="30.0" prefWidth="214.0" text="Create ageGroups arrff files">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
